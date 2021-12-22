@@ -1,9 +1,11 @@
 <template>
-  <div class="w-screen h-screen overflow-none">
+  <div class="w-screen h-screen" style="-webkit-overflow-scrolling: touch; overflow: auto;">
     <iframe
+      scrolling="auto"
       src="/JLDigitalMenu.pdf#view=fitH"
-      frameborder="0"
-      class="h-screen w-screen"
+      type='application/pdf'
+      title="Julie's Launja Menu"
+      class="h-full w-full"
     ></iframe>
   </div>
 </template>
@@ -17,7 +19,8 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "View Julie's Launja Menu and pick from a variety delicious food options",
+          content:
+            "View Julie's Launja Menu and pick from a variety delicious food options",
         },
       ],
     };
