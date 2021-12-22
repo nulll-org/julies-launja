@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="w-screen h-screen overflow-none">
     <iframe
-      src="/JLDigitalMenu.pdf"
+      src="/JLDigitalMenu.pdf#view=fitH"
       frameborder="0"
       class="h-screen w-screen"
     ></iframe>
