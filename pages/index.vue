@@ -4,15 +4,23 @@
       class="w-screen h-screen flex items-center justify-center"
       v-if="currentPage < pageCount"
     >
-      <div class="w-16 h-16">
-        <img class="object-contain" src="/loader.svg" />
+      <div>
+        <div class="w-52">
+          <img
+            class="w-full object-contain animate-pulse"
+            src="/juli-logo.png"
+          />
+        </div>
+        <div class="w-16 h-16 mx-auto">
+          <img class="object-contain" src="/loader.svg" />
+        </div>
       </div>
     </div>
     <div>
       <pdf
         src="/JLDigitalMenu.pdf"
         class="mb-4"
-        v-for="i in 8"
+        v-for="i in 10"
         :key="i"
         :page="i"
         @num-pages="pageCount = $event"
