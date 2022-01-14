@@ -55,14 +55,6 @@ export default {
       pageCount: 0,
       currentPage: null,
     };
-  },
-  methods: {
-    load(event) {
-      console.log(`${event * 100}%`);
-    },
-    page(event) {
-      console.log(event);
-    },
-  },
+  }
 };
 </script>
