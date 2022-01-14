@@ -52,8 +52,8 @@ export default {
   },
   data() {
     return {
-      pageCount: 0,
-      currentPage: null,
+      pageCount: 1,
+      currentPage: 0,
     };
   }
 };
