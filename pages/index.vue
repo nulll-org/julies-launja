@@ -20,7 +20,7 @@
       <pdf
         src="/JLDigitalMenu.pdf"
         class="mb-4"
-        v-for="i in 10"
+        v-for="i in 23"
         :key="i"
         :page="i"
         @num-pages="pageCount = $event"
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import pdf from "vue-pdf";
+import pdf from "@teckel/vue-pdf";
 
 export default {
   components: {

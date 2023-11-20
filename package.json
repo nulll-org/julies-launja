@@ -3,23 +3,25 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --legacy-peer-deps",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@teckel/vue-pdf": "^4.3.5",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
-    "vue-pdf": "^4.3.0",
+    "vue-pdf": "^4.0.0",
     "vue-pdf-embed": "^1.0.5",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@nuxtjs/tailwindcss": "^6.9.5",
+    "@vue/runtime-dom": "3.3.8",
     "postcss": "^8.4.4"
   }
 }
